@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+@tailwind utilities;
+
+body {
+  @apply overflow-x-hidden overflow-y-auto scroll-smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
+}
+
+*::-webkit-scrollbar {
+  display: none; 
+}
